@@ -406,7 +406,7 @@ int closeSpan = input2.IndexOf("</span>");
 quantity = input2.Substring(openSpan + 6, closeSpan - openSpan - 6);
 
 // for output
-output = input2.Replace("<div>", "");
+output = input2.Replace("<div>", ""); // tb puede hacerse con Remove()
 output = output.Replace("</div>", "");
 output = output.Replace("&trade;", "&reg;");
 
