@@ -383,3 +383,32 @@ Console.WriteLine("Nuevo Ejemplo");
 string data = "12345John Smith          5000  3  ";
 string updatedData = data.Remove(5, 20);
 Console.WriteLine(updatedData);
+
+message = "This--is--ex-amp-le--da-ta";
+message = message.Replace("--", " ");
+message = message.Replace("-", "");
+Console.WriteLine(message);
+
+
+// Ejercicio 4
+Console.WriteLine("Ejercicio 4");
+
+const string input2 = "<div><h2>Widgets &trade;</h2><span>5000</span></div>";
+
+string quantity = "";
+string output = "";
+
+// Your work here
+
+//for quantity
+int openSpan = input2.IndexOf("<span>");
+int closeSpan = input2.IndexOf("</span>");
+quantity = input2.Substring(openSpan + 6, closeSpan - openSpan - 6);
+
+// for output
+output = input2.Replace("<div>", "");
+output = output.Replace("</div>", "");
+output = output.Replace("&trade;", "&reg;");
+
+Console.WriteLine($"Quantity: {quantity}");
+Console.WriteLine(output);
