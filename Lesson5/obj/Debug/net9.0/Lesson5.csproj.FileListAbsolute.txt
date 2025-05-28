@@ -1,0 +1,15 @@
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\bin\Debug\net9.0\Lesson5.exe
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\bin\Debug\net9.0\Lesson5.deps.json
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\bin\Debug\net9.0\Lesson5.runtimeconfig.json
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\bin\Debug\net9.0\Lesson5.dll
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\bin\Debug\net9.0\Lesson5.pdb
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.AssemblyInfoInputs.cache
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.AssemblyInfo.cs
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.csproj.CoreCompileInputs.cache
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.sourcelink.json
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.dll
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\refint\Lesson5.dll
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.pdb
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\Lesson5.genruntimeconfig.cache
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Lesson5\obj\Debug\net9.0\ref\Lesson5.dll
