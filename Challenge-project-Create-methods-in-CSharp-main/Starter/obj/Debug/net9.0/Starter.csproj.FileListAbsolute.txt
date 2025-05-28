@@ -1,0 +1,15 @@
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net9.0\Starter.exe
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net9.0\Starter.deps.json
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net9.0\Starter.runtimeconfig.json
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net9.0\Starter.dll
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\bin\Debug\net9.0\Starter.pdb
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.AssemblyInfoInputs.cache
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.AssemblyInfo.cs
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.csproj.CoreCompileInputs.cache
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.sourcelink.json
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.dll
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\refint\Starter.dll
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.pdb
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\Starter.genruntimeconfig.cache
+C:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Challenge-project-Create-methods-in-CSharp-main\Starter\obj\Debug\net9.0\ref\Starter.dll

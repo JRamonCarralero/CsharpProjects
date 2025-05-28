@@ -27,7 +27,32 @@ int food = 0;
 InitializeGame();
 while (!shouldExit) 
 {
-    Move();
+    if (TerminalResized())
+    {
+        Console.Clear();
+        Console.Write("Console was resized. Program exiting.");
+        shouldExit = true;
+    }
+    else
+    {
+        if (PlayerIsFaster()) 
+        {
+            Move(1, false);
+        } 
+        else if (PlayerIsSick()) 
+        {
+            FreezePlayer();
+        } else 
+        {
+            Move(otherKeysExit: false);
+        }
+        if (GotFood())
+        {
+            ChangePlayer();
+            ShowFood();
+        }
+    }
+    
 }
 
 // Returns true if the Terminal was resized 
@@ -37,7 +62,7 @@ bool TerminalResized()
 }
 
 // Displays random food at a random location
-void ShowFood() 
+void ShowFood()
 {
     // Update food to a random index
     food = random.Next(0, foods.Length);
@@ -49,6 +74,21 @@ void ShowFood()
     // Display the food at the location
     Console.SetCursorPosition(foodX, foodY);
     Console.Write(foods[food]);
+}
+
+bool GotFood()
+{
+    return playerY == foodY && playerX == foodX;
+}
+
+bool PlayerIsSick()
+{
+    return player.Equals(states[2]);
+}
+
+bool PlayerIsFaster()
+{
+    return player.Equals(states[1]);
 }
 
 // Changes the player to match the food consumed
@@ -67,27 +107,31 @@ void FreezePlayer()
 }
 
 // Reads directional input from the Console and moves the player
-void Move() 
+void Move(int speed = 1, bool otherKeysExit = false) 
 {
     int lastX = playerX;
     int lastY = playerY;
-    
-    switch (Console.ReadKey(true).Key) 
+
+    switch (Console.ReadKey(true).Key)
     {
         case ConsoleKey.UpArrow:
-            playerY--; 
+            playerY--;
             break;
-		case ConsoleKey.DownArrow: 
-            playerY++; 
+        case ConsoleKey.DownArrow:
+            playerY++;
             break;
-		case ConsoleKey.LeftArrow:  
-            playerX--; 
+        case ConsoleKey.LeftArrow:
+            playerX -= speed;
             break;
-		case ConsoleKey.RightArrow: 
-            playerX++; 
+        case ConsoleKey.RightArrow:
+            playerX += speed;
             break;
-		case ConsoleKey.Escape:     
-            shouldExit = true; 
+        case ConsoleKey.Escape:
+            shouldExit = true;
+            break;
+        default:
+            // Exit if any other keys are pressed
+            shouldExit = otherKeysExit;
             break;
     }
 
