@@ -1,4 +1,7 @@
-﻿string[] guestList = {"Rebecca", "Nadia", "Noor", "Jonte"};
+﻿using System;
+
+
+string[] guestList = {"Rebecca", "Nadia", "Noor", "Jonte"};
 string[] rsvps = new string[10];
 int count = 0;
 
@@ -81,4 +84,142 @@ void DisplayEmail(string first, string second, string domain = "contoso.com")
 {
     string email = first.ToLower().Substring(0, 2) + second.ToLower() + "@" + domain;
     Console.WriteLine(email);
+}
+
+
+// Ejemplo
+
+string input = "there are snakes at the zoo";
+
+Console.WriteLine(input);
+Console.WriteLine(ReverseSentence(input));
+
+string ReverseSentence(string input) 
+{
+    string result = "";
+    string[] words = input.Split(" ");
+    foreach(string word in words) 
+    {
+        result += ReverseWord(word) + " ";
+    }
+    return result.Trim();
+}
+
+string ReverseWord(string word) 
+{
+    string result = "";
+    for (int i = word.Length - 1; i >= 0; i--) 
+    {
+        result += word[i];
+    }
+    return result;
+}
+
+// Desafio
+
+Random random = new Random();
+
+Console.WriteLine("Would you like to play? (Y/N)");
+if (ShouldPlay()) 
+{
+    PlayGame();
+}
+
+void PlayGame()
+{
+    var play = true;
+
+    while (play)
+    {
+        var target = DiceRoll();
+        var roll = DiceRoll();
+
+        Console.WriteLine($"Roll a number greater than {target} to win!");
+        Console.WriteLine($"You rolled a {roll}");
+        Console.WriteLine(WinOrLose(target, roll));
+        Console.WriteLine("\nPlay again? (Y/N)");
+
+        play = ShouldPlay();
+    }
+}
+
+bool ShouldPlay() 
+{
+    var input = Console.ReadLine();
+    return input == "Y" || input == "y";
+}
+
+int DiceRoll()
+{
+    return random.Next(1, 7);
+}
+
+string WinOrLose(int target, int roll)
+{
+    return roll > target ? "You win!" : "You lose!";
+}
+
+
+// Proyecto Guiado
+
+string[] pettingZoo = 
+{
+    "alpacas", "capybaras", "chickens", "ducks", "emus", "geese", 
+    "goats", "iguanas", "kangaroos", "lemurs", "llamas", "macaws", 
+    "ostriches", "pigs", "ponies", "rabbits", "sheep", "tortoises",
+};
+
+PlanSchoolVisit("School A");
+PlanSchoolVisit("School B", 3);
+PlanSchoolVisit("School C", 2);
+
+void PlanSchoolVisit(string schoolName, int groups = 6) 
+{
+    RandomizeAnimals(); 
+    string[,] group1 = AssignGroup(groups);
+    Console.WriteLine(schoolName);
+    PrintGroup(group1);
+}
+
+void RandomizeAnimals()
+{
+    Random random = new Random();
+
+    for (int i = 0; i < pettingZoo.Length; i++)
+    {
+        int r = random.Next(i, pettingZoo.Length);
+
+        string temp = pettingZoo[r];
+        pettingZoo[r] = pettingZoo[i];
+        pettingZoo[i] = temp;
+    }
+}
+
+string[,] AssignGroup(int groups = 6) 
+{
+    string[,] result = new string[groups, pettingZoo.Length/groups];
+    int start = 0;
+
+    for (int i = 0; i < groups; i++) 
+    {
+        for (int j = 0; j < result.GetLength(1); j++) 
+        {
+            result[i,j] = pettingZoo[start++];
+        }
+    }
+
+    return result;
+}
+
+void PrintGroup(string[,] groups) 
+{
+    for (int i = 0; i < groups.GetLength(0); i++) 
+    {
+        Console.Write($"Group {i + 1}: ");
+        for (int j = 0; j < groups.GetLength(1); j++) 
+        {
+            Console.Write($"{groups[i,j]}  ");
+        }
+        Console.WriteLine();
+    }
 }
