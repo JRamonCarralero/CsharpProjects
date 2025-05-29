@@ -1,0 +1,15 @@
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\bin\Debug\net9.0\Debug101.exe
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\bin\Debug\net9.0\Debug101.deps.json
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\bin\Debug\net9.0\Debug101.runtimeconfig.json
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\bin\Debug\net9.0\Debug101.dll
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\bin\Debug\net9.0\Debug101.pdb
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.AssemblyInfoInputs.cache
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.AssemblyInfo.cs
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.csproj.CoreCompileInputs.cache
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.sourcelink.json
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.dll
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\refint\Debug101.dll
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.pdb
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\Debug101.genruntimeconfig.cache
+c:\Users\grukd\OneDrive\Escritorio\Tutoriales Programacion\CsharpProjects\Debug101\obj\Debug\net9.0\ref\Debug101.dll
